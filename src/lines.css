@@ -1,0 +1,20 @@
+#lines {
+	width: 100%;
+	margin: 400px auto;
+	
+}
+
+.line {
+	width: 10px;
+	overflow: visible;
+	background: #444;
+
+	transform: rotate(0deg);
+	transition: transform 1s linear;
+}
+
+.line > .line {
+	position: absolute;
+	top: 0;
+	left: 100%;
+}

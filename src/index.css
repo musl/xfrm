@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Permanent Marker';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Permanent Marker Regular'), local('PermanentMarker-Regular'), url(permanent-marker.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Raleway'), local('Raleway-Regular'), url(open-sans.ttf) format('truetype');
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= 'pure-u'] {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14pt;
+}
+
+body {
+	background-color: #fff;
+}
+
+h1, h2, h3 {
+	font-family: 'Permanent Marker';
+}
